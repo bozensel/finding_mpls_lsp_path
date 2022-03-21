@@ -80,7 +80,7 @@ def comparing_lsps():
             with open("clishow_parser_outputs\compared_lsps.txt", "a") as f:
                 f.write(f"{line2[0]} --> {line2[1]} --> {line2[2]} --> {line2[3]} --> {line2[4]}")
     print(colored("\n############################ WARNING! ############################\n", "red"))
-    print(colored(f"Following lsps have different IP Hops between two tech-support files. You can see details in 'compared_lsps.txt' file.\n", "yellow"))
+    print(colored(f"Following lsps have different IP Hops between two colledted files. You can see details in 'compared_lsps.txt' file.\n", "yellow"))
     for compared_lsp in compared_list:
         print(compared_lsp[0])
 
